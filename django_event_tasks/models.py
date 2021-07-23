@@ -65,6 +65,7 @@ class TaskStatus(TimeStampedModel):
 
     class Meta:
         ordering = ('name',)
+        verbose_name = 'Task statuses'
 
 
 class Task(TimeStampedModel):
